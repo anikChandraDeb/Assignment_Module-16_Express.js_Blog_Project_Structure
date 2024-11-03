@@ -1,17 +1,17 @@
 //CRUD-CREATE READ UPDATE DELETE
 //Create todo
-export const createTask= async (req,res)=>{
-    return res.json({message:'Task Created Successfully'});
+export const createBlog= async (req,res)=>{
+    return res.json({Message:'Blog created successfully'});
 }
 //Create read
-export const readTask= async (req,res)=>{
-    return res.json({message:'Task Read Successfully'});
+export const readBlog= async (req,res)=>{
+    return res.json({Message:'Blog read successfully'});
 }
 //Create update
-export const updateTask= async (req,res)=>{
-    return res.json({message:'Task Update Successfully'});
+export const updateBlog= async (req,res)=>{
+    return res.json({message:'Blog update successfully'});
 }
 //Create Delete
-export const deleteTask= async (req,res)=>{
-    return res.json({message:'Task Delete Successfully'});
+export const deleteBlog= async (req,res)=>{
+    return res.json({message:'Blog delete successfully'});
 }
